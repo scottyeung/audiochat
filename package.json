@@ -1,0 +1,35 @@
+{
+    "name": "chatroom-app",
+    "version": "1.0.0",
+    "description": "Chatroom app with audio upload and voting functionality",
+    "main": "server/index.ts",
+    "scripts": {
+        "start": "bun run server/index.ts",
+        "dev": "bun i && bun --watch server/index.ts",
+        "build": "tsc"
+    },
+    "dependencies": {
+        "@types/express": "latest",
+        "@types/node": "latest",
+        "@types/react": "latest",
+        "@types/react-dom": "latest",
+        "@types/react-router-dom": "latest",
+        "@types/socket.io": "latest",
+        "@types/socket.io-client": "latest",
+        "@types/uuid": "latest",
+        "aws-sdk": "latest",
+        "bun": "latest",
+        "concurrently": "latest",
+        "cookie-parser": "latest",
+        "esbuild": "latest",
+        "express": "latest",
+        "react": "latest",
+        "react-dom": "latest",
+        "react-router-dom": "5.2.0",
+        "socket.io": "latest",
+        "socket.io-client": "latest",
+        "sqlite3": "latest",
+        "typescript": "latest",
+        "uuid": "latest"
+    }
+}
